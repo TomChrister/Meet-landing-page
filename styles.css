@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #87879D;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 64px;
+    color: #28283D;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+    color: #28283D;
+}
+
+.overline {
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #4D96A9;
+}
+
+#button-text {
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
+    color: #FFF;
+}
+
+.button-blue {
+    border: none;
+    border-radius: 29px;
+    background-color: #4D96A9;
+    text-align: center;
+    padding: 16px;
+    color: #8FE3F9;
+    font-weight: 900;
+    line-height: 26px;
+}
+
+.button-blue:hover {
+    cursor: pointer;
+    background-color: #71C0D4;
+}
+
+.button-purp {
+    border: none;
+    border-radius: 29px;
+    background-color: #855FB1;
+    text-align: center;
+    padding: 16px;
+    color: #D9B8FF;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.button-purp:hover {
+    cursor: pointer;
+    background-color: #B18BDD;
+
+}
+
+
