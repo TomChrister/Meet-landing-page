@@ -73,3 +73,38 @@ h2 {
     background-color: #B18BDD;
 
 }
+
+/*The following GRID only applies to mobile view version*/
+
+#image-gallery *{
+    width: 151px;
+    height: 141px;
+    border-radius: 8px;
+ 
+}
+
+#image-gallery{
+    display: grid;
+    grid-template-columns: 151px 151px;
+    grid-template-rows: 141px 141px;
+    grid-template-areas: 
+    "woman-c woman-p"
+    "man-c man-p";
+    gap: 25px;
+}
+
+.woman-computer{
+    grid-area: woman-c;
+}
+
+.woman-phone{
+    grid-area: woman-p;
+}
+
+.man-computer{
+    grid-area: map-c;
+}
+
+.man-phone{
+    grid-area: man-c;
+}
