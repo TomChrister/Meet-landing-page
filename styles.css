@@ -109,21 +109,41 @@ h2 {
     grid-area: man-c;
 }
 
-   /* Small (sm) */
-   @media (min-width: 640px) {
+/* Small (sm) */
+@media (min-width: 640px) {
 }
+
 /* Medium (md) */
 @media (min-width: 768px) {
-    /* Your styles for the medium breakpoint here */
+    #image-gallery *{
+        width: 164px;
+        height: 156px;
+    }
+    
+    #image-gallery{
+        display: flex;
+        flex-direction: row;
+        gap: 11px;
+    }
 }
+
 /* Large (lg) */
 @media (min-width: 1024px) {
     /* Your styles for the large breakpoint here */
 }
+
 /* Extra Large (xl) */
 @media (min-width: 1280px) {
-    /* Your styles for the extra large breakpoint here */
+    #image-gallery *{
+        width: 255px;
+        height: 242px;
+    }
+
+    #image-gallery{
+        gap: 30px;
+    }
 }
+
 /* 2XL (2xl) */
 @media (min-width: 1536px) {
     /* Your styles for the 2XL breakpoint here */
