@@ -123,7 +123,7 @@ h2 {
     #image-gallery{
         display: flex;
         flex-direction: row;
-        gap: 25px;
+        gap: 11px;
     }
 }
 
@@ -134,7 +134,14 @@ h2 {
 
 /* Extra Large (xl) */
 @media (min-width: 1280px) {
-    /* Your styles for the extra large breakpoint here */
+    #image-gallery *{
+        width: 255px;
+        height: 242px;
+    }
+
+    #image-gallery{
+        gap: 30px;
+    }
 }
 
 /* 2XL (2xl) */
