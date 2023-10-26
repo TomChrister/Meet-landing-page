@@ -208,6 +208,9 @@ article#smarter-meetings-description{
     margin: 0;
 }
 
+span{
+    padding-right: 4px;
+}
 
 
 /* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::Medium (md) ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
@@ -317,6 +320,8 @@ article#smarter-meetings-description{
         margin-bottom: 80px;
     }
 
+   
+
 /*Font Breakpoints*/
     h1 {
         font-size: 64px;
@@ -324,21 +329,18 @@ article#smarter-meetings-description{
         line-height: 64px;
     
     }
-    
     h2 {
         font-size: 40px;
         font-weight: 900;
         line-height: 40px;
 
     }
-    
     body{
         font-size: 18px;
         font-weight: 500;
         line-height: 26px;
 
     }
-
     .overline{
         font-size: 16px;
         font-weight: 900;
@@ -349,20 +351,3 @@ article#smarter-meetings-description{
         width: 540px;
         height: 240px;
     }
-
-    #smarter-meetings-description h2, p{
-        margin: 0;
-    }
-    
-/*Spacing Breakpoints - Desktop*/
-
-    .top-textxcnbv{
-        width: 540px;
-    }
-
-}
-
-/* 2XL (2xl) */
-@media (min-width: 1536px) {
-    /* Your styles for the 2XL breakpoint here */
-}
