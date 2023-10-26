@@ -214,11 +214,8 @@ article#smarter-meetings-description{
 }
 
 
-/* Small (sm) */
-@media (min-width: 640px) {
-}
 
-/* Medium (md) */
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::Medium (md) ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 @media (min-width: 768px) {
     .main-text {
         margin-top: 330px;
@@ -251,68 +248,57 @@ article#smarter-meetings-description{
     }
 
 /*Font Breakpoints*/
-h1 {
-    font-size: 48px;
-    font-weight: 900;
-    line-height: 48px;
+    h1 {
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 48px;
 
+    }
+
+    h2 {
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 44px;
+
+    }
+
+    body{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+
+    }
+
+    .overline{
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 26px;
 }
 
-h2 {
-    font-size: 40px;
-    font-weight: 900;
-    line-height: 44px;
 
-}
-
-body{
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 26px;
-
-}
-
-.overline{
-    font-size: 16px;
-    font-weight: 900;
-    line-height: 26px;
-}
-/*Spacing Breakpoints - Tablet*/
+/*Spacing Breakpoints*/
 article#smarter-meetings-description{
     width: 573px;
     height: 240px;
 }
-.png {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-shrink: 0;
-    margin-top: 80px;
-    margin-bottom: 67px;
 }
 
-.png-2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 64px;
-}
-}
 
-/* Large (lg) */
-@media (min-width: 1024px) {
-    /* Your styles for the large breakpoint here */
-}
 
-/* Extra Large (xl) */
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::Tablet (XL) ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 @media (min-width: 1280px) {
     .main-text {
         margin-top: 0;
     }
 
+    .top-text {
+        margin: 0 auto 34px auto;
+        max-width: 445px;
+    }
+
     .mid-text {
         max-width: 521px;
+        margin: 0 auto 32px auto;
     }
     
     .hero-left {
@@ -326,11 +312,11 @@ article#smarter-meetings-description{
     #image-gallery *{
         width: 255px;
         height: 242px;
-        margin-bottom: 80px;
     }
 
     #image-gallery{
         gap: 30px;
+        margin-bottom: 80px;
     }
 
 /*Font Breakpoints*/
@@ -375,20 +361,6 @@ article#smarter-meetings-description{
     .top-textxcnbv{
         width: 540px;
     }
-    .png {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 117px;
-        margin-bottom: 64px;
-        width: 56px;
-        height: 140px;
-    }
-    .png-2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 72px;
 
 }
 
