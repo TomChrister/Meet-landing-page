@@ -52,6 +52,18 @@ body {
     height: fit-content;
 }
 
+.png {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    
+     /* flex-direction: column; */
+    /* width: 56px;
+    height: 140px; */
+}
+
 .top-text {
     margin: 0 auto;
     max-width: 287px;
@@ -206,7 +218,36 @@ h2 {
         flex-direction: row;
         gap: 11px;
     }
+
+/*Font Breakpoints*/
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 48px;
+
 }
+
+h2 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 44px;
+
+}
+
+body{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+
+}
+
+.overline{
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
+}
+}
+
 
 /* Large (lg) */
 @media (min-width: 1024px) {
@@ -238,6 +279,34 @@ h2 {
 
     #image-gallery{
         gap: 30px;
+    }
+
+/*Font Breakpoints*/
+    h1 {
+        font-size: 64px;
+        font-weight: 900;
+        line-height: 64px;
+    
+    }
+    
+    h2 {
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 40px;
+
+    }
+    
+    body{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26px;
+
+    }
+
+    .overline{
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 26px;
     }
 }
 
