@@ -5,6 +5,7 @@
 }
 
 body {
+    background-color: #FAFAFA;
     font-size: 18px;
     font-weight: 500;
     line-height: 26px;
@@ -26,20 +27,39 @@ body {
     overflow-x: hidden;
 }
 
-.introduction {
-    display: flex;
-    gap: 16px;
-    margin: 0;
+.main-text {
+    position: relative;
+    margin-top: 160px;
 }
 
-.introduction img {
+.hero-left img {
     width: 199px;
     height: 153px;
+    gap: 20px;
+    position: absolute;
+    left: 0;
+}
+
+.hero-right img {
+    width: 199px;
+    height: 153px;
+    position: absolute;
+    right: 0;
+}
+
+.introduction {
+    display: block;
+    height: fit-content;
 }
 
 .top-text {
-    margin: 24px;
+    margin: 0 auto;
     max-width: 287px;
+}
+
+.mid-text {
+    margin: auto;
+    max-width: 300px;
 }
 
 h1 {
@@ -47,6 +67,7 @@ h1 {
     font-weight: 900;
     line-height: 44px;
     color: #28283D;
+    margin: 50px auto 0 auto;
 }
 
 h2 {
@@ -68,6 +89,7 @@ h2 {
 .button-group {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 16px;
     align-items: center;
 }
@@ -88,6 +110,7 @@ h2 {
     color: #8FE3F9;
     font-weight: 900;
     line-height: 26px;
+    width: 193px;
 }
 
 .button-blue:hover {
@@ -105,7 +128,7 @@ h2 {
     font-weight: 900;
     font-size: 16px;
     line-height: 26px;
-    max-width: 139px;
+    width: 139px;
 }
 
 .button-purp:hover {
@@ -155,6 +178,24 @@ h2 {
 
 /* Medium (md) */
 @media (min-width: 768px) {
+    .main-text {
+        margin-top: 330px;
+    }
+
+    .button-group {
+        flex-direction: row;
+    }
+    
+    .introduction img {
+        width: 394px;
+        height: 303px;
+    }
+
+    .mid-text {
+        margin: auto;
+        max-width: 457px;
+    }
+
     #image-gallery *{
         width: 164px;
         height: 156px;
@@ -174,6 +215,22 @@ h2 {
 
 /* Extra Large (xl) */
 @media (min-width: 1280px) {
+    .main-text {
+        margin-top: 0;
+    }
+
+    .mid-text {
+        max-width: 521px;
+    }
+    
+    .hero-left {
+        left: auto;
+    }
+
+    .hero-right {
+        
+    }
+
     #image-gallery *{
         width: 255px;
         height: 242px;
