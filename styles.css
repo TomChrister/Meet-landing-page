@@ -213,11 +213,8 @@ article#smarter-meetings-description{
 }
 
 
-/* Small (sm) */
-@media (min-width: 640px) {
-}
 
-/* Medium (md) */
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::Medium (md) ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 @media (min-width: 768px) {
     .main-text {
         margin-top: 330px;
@@ -250,45 +247,49 @@ article#smarter-meetings-description{
     }
 
 /*Font Breakpoints*/
-h1 {
-    font-size: 48px;
-    font-weight: 900;
-    line-height: 48px;
+    h1 {
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 48px;
 
+    }
+
+    h2 {
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 44px;
+
+    }
+
+    body{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+
+    }
+
+    .overline{
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 26px;
 }
 
-h2 {
-    font-size: 40px;
-    font-weight: 900;
-    line-height: 44px;
 
-}
-
-body{
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 26px;
-
-}
-
-.overline{
-    font-size: 16px;
-    font-weight: 900;
-    line-height: 26px;
-}
-/*Spacing Breakpoints - Tablet*/
+/*Spacing Breakpoints*/
 article#smarter-meetings-description{
     width: 573px;
     height: 240px;
 }
+
+#smarter-meetings-description:nth-child(2){
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
 }
 
-/* Large (lg) */
-@media (min-width: 1024px) {
-    /* Your styles for the large breakpoint here */
-}
 
-/* Extra Large (xl) */
+
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::Tablet (XL) ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 @media (min-width: 1280px) {
     .main-text {
         margin-top: 0;
@@ -315,11 +316,11 @@ article#smarter-meetings-description{
     #image-gallery *{
         width: 255px;
         height: 242px;
-        margin-bottom: 80px;
     }
 
     #image-gallery{
         gap: 30px;
+        margin-bottom: 80px;
     }
 
 /*Font Breakpoints*/
@@ -355,19 +356,5 @@ article#smarter-meetings-description{
         height: 240px;
     }
 
-    #smarter-meetings-description h2, p{
-        margin: 0;
-    }
-    
-/*Spacing Breakpoints - Desktop*/
-
-    .top-textxcnbv{
-        width: 540px;
-    }
-
 }
 
-/* 2XL (2xl) */
-@media (min-width: 1536px) {
-    /* Your styles for the 2XL breakpoint here */
-}
