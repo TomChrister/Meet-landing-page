@@ -294,8 +294,14 @@ article#smarter-meetings-description{
         margin-top: 0;
     }
 
+    .top-text {
+        margin: 0 auto 34px auto;
+        max-width: 445px;
+    }
+
     .mid-text {
         max-width: 521px;
+        margin: 0 auto 32px auto;
     }
     
     .hero-left {
