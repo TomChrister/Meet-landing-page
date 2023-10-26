@@ -143,6 +143,7 @@ h2 {
     "woman-c woman-p"
     "man-c man-p";
     gap: 25px;
+    margin-bottom: 64px;
 }
 
 .woman-computer{
@@ -161,6 +162,25 @@ h2 {
     grid-area: man-c;
 }
 
+article#smarter-meetings-description{
+    width: 327px;
+    height: 284px;
+}
+
+/**/
+#smarter-meetings-description:nth-child(2){
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+#smarter-meetings-description #smarter1{
+    margin: 0px;
+}
+#smarter-meetings-description #smarter3{
+    margin: 0;
+}
+
+
 /* Small (sm) */
 @media (min-width: 640px) {
 }
@@ -176,6 +196,7 @@ h2 {
         display: flex;
         flex-direction: row;
         gap: 11px;
+        margin-bottom: 48px;
     }
 
 /*Font Breakpoints*/
@@ -205,8 +226,12 @@ body{
     font-weight: 900;
     line-height: 26px;
 }
+/*Spacing Breakpoints - Tablet*/
+article#smarter-meetings-description{
+    width: 573px;
+    height: 240px;
 }
-
+}
 
 /* Large (lg) */
 @media (min-width: 1024px) {
@@ -218,6 +243,7 @@ body{
     #image-gallery *{
         width: 255px;
         height: 242px;
+        margin-bottom: 80px;
     }
 
     #image-gallery{
@@ -251,6 +277,22 @@ body{
         font-weight: 900;
         line-height: 26px;
     }
+
+    article#smarter-meetings-description{
+        width: 540px;
+        height: 240px;
+    }
+
+    #smarter-meetings-description h2, p{
+        margin: 0;
+    }
+    
+/*Spacing Breakpoints - Desktop*/
+
+    .top-textxcnbv{
+        width: 540px;
+    }
+
 }
 
 /* 2XL (2xl) */
