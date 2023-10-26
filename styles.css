@@ -58,6 +58,7 @@ body {
     align-items: center;
     margin-top: 64px;
     margin-bottom: 64px;
+    /* margin-left: 160px; */
     
      /* flex-direction: column; */
     /* width: 56px;
@@ -281,6 +282,22 @@ article#smarter-meetings-description{
     width: 573px;
     height: 240px;
 }
+.png {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-top: 80px;
+    margin-bottom: 67px;
+}
+
+.png-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+}
 }
 
 /* Large (lg) */
@@ -358,6 +375,20 @@ article#smarter-meetings-description{
     .top-textxcnbv{
         width: 540px;
     }
+    .png {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 117px;
+        margin-bottom: 64px;
+        width: 56px;
+        height: 140px;
+    }
+    .png-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 72px;
 
 }
 
