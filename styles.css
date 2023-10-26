@@ -54,6 +54,8 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 64px;
+
+    /* flex-direction: column; */
 }
 
 .top-text {
