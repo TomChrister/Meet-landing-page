@@ -49,6 +49,13 @@ body {
     height: 140px; */
 }
 
+.png-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+}
+
 .top-text {
     margin: 24px;
     max-width: 287px;
