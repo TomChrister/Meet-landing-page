@@ -29,22 +29,17 @@ body {
 
 .main-text {
     position: relative;
-    margin-top: 160px;
 }
 
-.hero-left img {
+.top-images {
+    display: flex;
+    gap: 20px;
+}
+
+.top-images img {
     width: 199px;
     height: 153px;
     gap: 20px;
-    position: absolute;
-    left: 0;
-}
-
-.hero-right img {
-    width: 199px;
-    height: 153px;
-    position: absolute;
-    right: 0;
 }
 
 .introduction {
@@ -217,10 +212,6 @@ article#smarter-meetings-description{
 
 /* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::Medium (md) ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 @media (min-width: 768px) {
-    .main-text {
-        margin-top: 330px;
-    }
-
     .button-group {
         flex-direction: row;
     }
@@ -228,6 +219,10 @@ article#smarter-meetings-description{
     .introduction img {
         width: 394px;
         height: 303px;
+    }
+
+    .top-text {
+        max-width: 339px;
     }
 
     .mid-text {
@@ -291,6 +286,17 @@ article#smarter-meetings-description{
         margin-top: 0;
     }
 
+    .top-images {
+        gap: 600px;
+    }
+
+    .main-text {
+        position: absolute;
+        top: 108px;
+        right: 0;
+        left: 0;
+    }
+
     .top-text {
         margin: 0 auto 34px auto;
         max-width: 445px;
@@ -299,14 +305,6 @@ article#smarter-meetings-description{
     .mid-text {
         max-width: 521px;
         margin: 0 auto 32px auto;
-    }
-    
-    .hero-left {
-        left: auto;
-    }
-
-    .hero-right {
-        
     }
 
     #image-gallery *{
